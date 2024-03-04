@@ -4,17 +4,17 @@
 
 # Díjak, sikerek
 
-  klubbcsapatokban:
+  Klubbcsapatokban:
 
-    osztrák RB Salzburg:
+    Osztrák RB Salzburg:
     Osztrák bajnok (4): 2017–18, 2018–19, 2019–20, 2020–21[195]
     Osztrák kupagyőztes (3): 2018–19,[196] 2019–20, 2020–21[197] 
-    német RB Leipzig:
+    Német RB Leipzig:
     Német kupagyőztes (2): 2021–22, 2022–23
     ENG Liverpool:
     Angol ligakupa: 2023–24
 
-  egyéni:
+  Egyéni:
 
     Ersten Liga – A szezon álomcsapatának tagja: 2017–18[198]
     goal.com – A Legtehetségesebb 50 csodagyerek 21. helyezettje: 2019[199]
