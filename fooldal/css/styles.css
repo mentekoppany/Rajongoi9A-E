@@ -193,6 +193,7 @@ ul,
 dl {
   margin-top: 0;
   margin-bottom: 1rem;
+  list-style-type: none;
 }
 
 ol ol,
@@ -599,8 +600,9 @@ progress {
 }
 
 .img-fluid {
-  max-width: 100%;
-  height: auto;
+  
+  height: 400px;
+  width: 300px;
 }
 
 .img-thumbnail {
