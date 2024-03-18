@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="hu" data-bs-theme="dark">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -19,6 +18,21 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+
+    body {
+      transition: background-color 0.5s ease;
+    }
+    .dark-mode {
+      background-color: #333;
+      color: #fff;
+    }
+    .dark-mode button {
+      background-color: none;
+      color: none;
+    }
+    </style>
 </head>
 
 <body class="d-flex flex-column h-100">
@@ -37,7 +51,7 @@
                         <li class="nav-item"><a class="nav-link" href="index.html">Főoldal</a></li>
                         <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
                         <li class="nav-item"><a class="nav-link" href="projects.html">Tudnivalók</a></li>
-                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                        <li class="nav-item"><button onclick="toggleDarkMode()">Sötét mód</button></li>
                     </ul>
                 </div>
             </div>
@@ -410,6 +424,12 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
+    <script>
+        function toggleDarkMode() {
+          var body = document.body;
+          body.classList.toggle("dark-mode");
+        }
+      </script>
 </body>
 
 </html
