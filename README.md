@@ -21,7 +21,7 @@
     2020 januárjában az Európai Labdarúgó-szövetség (UEFA) a világ ötven legtehetségesebb labdarúgója közé sorolta. Októberben bekerült a Golden Boy díj legjobb húsz labdarúgója közé, a 8. helyre. 
     December 17-én igazolt át az RB Leipzigbe. 2025 nyaráig írt alá szerződést. A lipcsei csapat 20 millió eurót fizetett érte Salzburgnak, ezzel ő lett a legdrágább magyar labdarúgó a sportág történetében. A szeméremcsontjában keletkezett gyulladás miatt egy időre visszatért Salzburgba gyógyulni. Később a Leipzig 2026 nyaráig meghosszabbította a szerződést.
 
-    2023. július 2-án átigazolt a Premier League-ben szereplő Liverpoolba, ahol 2028-ig tartó szerződést írt alá. A csapat 70 millió euróért igazolta le, ezzel a Liverpool történetének harmadik legdrágább játékosa lett.
+    2023. július 2-án átigazolt a Premier League-ben szereplő Liverpoolba, ahol 2028-ig tartó szerződést írt alá. A csapat 70 millió euróért igazolta le, ezzel a Liverpool történetének harmadik legdrágább játékosa lett, és továbbra is ő maradt a legdrágább magyar játékos.
 
 
 
