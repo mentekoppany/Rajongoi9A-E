@@ -11,6 +11,20 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
  
+ body {
+  transition: background-color 0.5s ease;
+}
+.dark-mode {
+  background-color: #333;
+  color: #fff;
+  transition: background-color 0.5s ease;
+}
+.dark-mode button {
+  background: none;
+  color: none;
+  border: none;
+}
+
 :root {
   --bs-blue: #1e30f3;
   --bs-indigo: #6610f2;
