@@ -12,7 +12,7 @@
     2007-ben kezdett el focizni apjával először a Videotonban, majd a fehérvári Főnix Gold FC-ben. 
     A 2015-16-os szezont az MTK Budapest akadémiáján töltötte. 
     Később visszatért a Főnix Goldba, az U17-es és az U19-es csapatba a 2016-17-es szezonban. 
-    2016 júliusában hároméves szerződést kötött a Salzburggal, 2017 márciusában csatlakozott az U18-as korosztályhoz. 
+    2016 júliusában három éves szerződést kötött a Salzburggal, 2017 márciusában csatlakozott az U18-as korosztályhoz. 
     Ebben az évben a The Guardien a világ legtehetségesebb 17 éves játékosai közé sorolta. 
 
     Június 13-án az FC Liefering bejelentette, hogy Szoboszlai náluk folytatja pályafutását. Az Erste Ligában, azaz a másodosztályban 2017. július 21-én debütált a Kapfenberger SV ellen. Itt kapott lehetőséget először élete első felnőtt bajnokiján és gólpasszt adott a 2-1-re nyert találkozón. Augusztus 4-én a BW Linz elleni bajnokin szerezte meg első gólját felnőttek között. Augusztus 20-án bokasérülést szerzett egyik edzésén, ezért majdnem egy hónapos kihagyásra kényszerült. 
