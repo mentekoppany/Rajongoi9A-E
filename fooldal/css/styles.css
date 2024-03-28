@@ -10,6 +10,21 @@
  * Copyright 2011-2022 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+ 
+ body {
+  transition: background-color 0.5s ease;
+}
+.dark-mode {
+  background-color: #333;
+  color: #fff;
+  transition: background-color 0.5s ease;
+}
+.dark-mode button {
+  background: none;
+  color: none;
+  border: none;
+}
+
 :root {
   --bs-blue: #1e30f3;
   --bs-indigo: #6610f2;
@@ -192,6 +207,7 @@ ul,
 dl {
   margin-top: 0;
   margin-bottom: 1rem;
+  list-style-type: none;
 }
 
 ol ol,
@@ -598,8 +614,9 @@ progress {
 }
 
 .img-fluid {
-  max-width: 100%;
-  height: auto;
+  
+  height: 400px;
+  width: 300px;
 }
 
 .img-thumbnail {
@@ -2799,6 +2816,7 @@ textarea.form-control-lg {
   border-radius: var(--bs-btn-border-radius);
   background-color: var(--bs-btn-bg);
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  background: linear-gradient(135deg, rgb(200, 10, 50) 0%, rgba(200, 10, 50, 0.5) 100%);
 }
 @media (prefers-reduced-motion: reduce) {
   .btn {
@@ -3102,7 +3120,7 @@ textarea.form-control-lg {
   --bs-btn-color: #212529;
   --bs-btn-border-color: #212529;
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #212529;
+  --bs-btn-hover-bg: transparent;
   --bs-btn-hover-border-color: #212529;
   --bs-btn-focus-shadow-rgb: 33, 37, 41;
   --bs-btn-active-color: #fff;
@@ -11556,11 +11574,11 @@ html {
 
 .bg-gradient-primary-to-secondary {
   background: #1e30f3;
-  background: linear-gradient(135deg, #1e30f3 0%, #e21e80 100%);
+  background: linear-gradient(135deg, rgba(200, 10, 50, 0.5) 0%, rgb(200, 10, 50) 100%);
 }
 
 .text-gradient {
-  background: -webkit-linear-gradient(315deg, #1e30f3 0%, #e21e80 100%);
+  background: linear-gradient(135deg, rgba(200, 10, 50, 0.5) 0%, rgb(200, 10, 50) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -11611,7 +11629,7 @@ html {
   top: 6.05vw;
 }
 .profile .dots-2 svg {
-  fill: #1e30f3;
+  fill: rgb(200, 10, 50);
 }
 .profile .dots-3 {
   position: absolute;
@@ -11629,7 +11647,7 @@ html {
   bottom: 4vw;
 }
 .profile .dots-4 svg {
-  fill: #1e30f3;
+  fill: rgba(200, 10, 50, 0.5);
 }
 
 @media (min-width: 576px) {
@@ -11731,4 +11749,47 @@ html {
     width: 1.5vw;
     left: -2vw;
   }
+}
+
+
+
+
+
+
+
+#blackmode {
+  background-color: none;
+}
+
+
+
+
+
+
+
+/*!
+*tudasteszt
+*/
+
+.valaszlehetosegek {
+  width: 400px;
+  border-radius: 10px;
+  padding: 20px 20px;
+  background-color: lightgrey;
+  color: black;
+  border: none;
+  text-align: center;
+  margin-bottom: 13px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.valaszlehetosegek:hover {
+  background-color: #ccc;
+}
+
+.kerdes {
+  color: #aaa;
+  font-size: 125%;
+  font-weight: bolder;
 }
