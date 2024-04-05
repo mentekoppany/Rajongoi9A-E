@@ -11767,6 +11767,9 @@ html {
 
 
 
+
+
+
 /*!
 *tudasteszt
 */
@@ -11792,4 +11795,21 @@ html {
   color: #aaa;
   font-size: 125%;
   font-weight: bolder;
+}
+
+
+
+
+
+
+
+
+
+/*!
+*nevjegy
+*/
+
+.nevjegy {
+  font-size: 20px;
+  margin-left: 20px;
 }
