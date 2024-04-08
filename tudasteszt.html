@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Szoboszlai Dominik Rajongóioldal</title>
+    <link rel="icon" type="image/x-icon" href="assets/football.ball.png"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="css/styles.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+    .correct { color: green; }
+    .incorrect { color: red; }
+    </style>
+</head>
+
+<body>
+<main class="flex-shrink-0">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
+        <div class="container px-5">
+
+            <p>
+                <span class="fw-bolder text-primary"><img class="navbar-brand" style="
+                height: 53px;" src="assets/liverpoolbadgetransparentbackground-2.png" alt="">
+                </span>
+            </p>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">
+                </span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">
+                            Főoldal
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="projects.html">
+                            Tudnivalók
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Névjegy.html">
+                            Névjegy
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tudasteszt.html">
+                            Tudásteszt
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="py-5">
+        <div  class="container px-5 mb-5">
+            <div class="text-center mb-5">
+                <h1 class="display-5 fw-bolder mb-0">
+                    <span class="text-gradient d-inline">
+                        Tudásteszt
+                    </span>
+                </h1>
+            </div>
+        </div>
+
+        <div class="row gx-5 justify-content-center">
+            <div class="col-lg-11 col-xl-9 col-xxl-8">
+                <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+                    <div class="card-body p-0">
+                        <div class="d-flex align-items-center">
+                            <div class="p-5">
+
+                                <div class="quiz">
+                                    <div class="question">
+                                        <p class="kerdes">
+                                            1. Mikor született Szoboszlai Dominik?
+                                        </p>
+                                        <button onclick="checkAnswer(1, 'a')" class="valaszlehetosegek">
+                                            1999. október 26.
+                                        </button>
+                                        <button onclick="checkAnswer(1, 'b')" class="valaszlehetosegek">
+                                            2000. november 25.
+                                        </button>
+                                        <button onclick="checkAnswer(1, 'c')" class="valaszlehetosegek">
+                                            1999. november 25.
+                                        </button>
+                                        <button onclick="checkAnswer(1, 'd')" class="valaszlehetosegek">
+                                            2000. október 25.
+                                        </button>
+                                        <div id="answer1">
+                                        </div>
+                                        <br>
+                                        <br>
+                                        <br>
+                                    </div>
+                                </div>
+
+                                <div id="quiz">
+                                    <div class="question">
+                                        <p class="kerdes">
+                                            2. Hol született?
+                                        </p>
+                                        <button onclick="checkAnswer(2, 'a')" class="valaszlehetosegek">
+                                            Székesfehérvár
+                                        </button>
+                                        <button onclick="checkAnswer(2, 'b')" class="valaszlehetosegek">
+                                            Budapest
+                                        </button>
+                                        <button onclick="checkAnswer(2, 'c')" class="valaszlehetosegek">
+                                            Győr
+                                        </button>
+                                        <button onclick="checkAnswer(2, 'd')" class="valaszlehetosegek">
+                                            Szentendre
+                                        </button>
+                                        <div id="answer2">
+                                        </div>
+                                        <br>
+                                        <br>
+                                        <br>
+                                    </div>
+                                </div>
+
+                                <div class="quiz">
+                                    <div class="question">
+                                        <p class="kerdes">
+                                            3. Melyik csapatban kapott lehetőséget először élete első felnőtt bajnokiján?
+                                        </p>
+                                        <button onclick="checkAnswer(3, 'a')" class="valaszlehetosegek">
+                                            Főnix Gold FC
+                                        </button>
+                                        <button onclick="checkAnswer(3, 'b')" class="valaszlehetosegek">
+                                            FC Liefering
+                                        </button>
+                                        <button onclick="checkAnswer(3, 'c')" class="valaszlehetosegek">
+                                            RB Leipzig
+                                        </button>
+                                        <button onclick="checkAnswer(3, 'd')" class="valaszlehetosegek">
+                                            MTK Budapest
+                                        </button>
+                                        <div id="answer3">
+                                        </div>
+                                        <br>
+                                        <br>
+                                        <br>                             
+                                    </div>
+                                </div>
+
+                                <div id="quiz">
+                                    <div class="question">
+                                        <p class="kerdes">
+                                            4. Melyik csapatban játszik jelenleg?
+                                        </p>
+                                        <button onclick="checkAnswer(4, 'a')" class="valaszlehetosegek">
+                                            Liverpool
+                                        </button>
+                                        <button onclick="checkAnswer(4, 'b')" class="valaszlehetosegek">
+                                            FC Liefering
+                                        </button>
+                                        <button onclick="checkAnswer(4, 'c')" class="valaszlehetosegek">
+                                            RB Leipzig
+                                        </button>
+                                        <button onclick="checkAnswer(4, 'd')" class="valaszlehetosegek">
+                                            Bayern München
+                                        </button>
+                                        <div id="answer4">
+                                        </div>
+                                        <br>
+                                        <br>
+                                        <br>
+                                    </div>
+                                </div>
+
+                                <div id="quiz">
+                                    <div class="question">
+                                        <p class="kerdes">
+                                            5. Hány euróért igazolt át a Liverpoolhoz?
+                                        </p>
+                                        <button onclick="checkAnswer(5, 'a')" class="valaszlehetosegek">
+                                            170 millió
+                                        </button>
+                                        <button onclick="checkAnswer(5, 'b')" class="valaszlehetosegek">
+                                            70 millió
+                                        </button>
+                                        <button onclick="checkAnswer(5, 'c')" class="valaszlehetosegek">
+                                            700 ezer
+                                        </button>
+                                        <button onclick="checkAnswer(5, 'd')" class="valaszlehetosegek">
+                                            17 millió
+                                        </button>
+                                        <div id="answer5">
+                                        </div>
+                                        <br>
+                                        <br>
+                                        <br>
+                                    </div>
+                                </div>
+
+                                <div id="quiz">
+                                    <div class="question">
+                                        <p class="kerdes">
+                                            6. A Liverpool hanyadik legdrágább játékosa?
+                                        </p>
+                                        <button onclick="checkAnswer(6, 'a')" class="valaszlehetosegek">
+                                            első
+                                        </button>
+                                        <button onclick="checkAnswer(6, 'b')" class="valaszlehetosegek">
+                                            harmadik
+                                        </button>
+                                        <button onclick="checkAnswer(6, 'c')" class="valaszlehetosegek">
+                                            ötödik
+                                        </button>
+                                        <button onclick="checkAnswer(6, 'd')" class="valaszlehetosegek">
+                                            hetedik
+                                        </button>
+                                        <div id="answer6">
+                                        </div>
+                                        <br>
+                                        <br>
+                                        <br>
+                                    </div>
+                                </div>
+
+                                <div id="quiz">
+                                    <div class="question">
+                                        <p class="kerdes">
+                                            7. Milyen szerepkört tölt be a csapatban?
+                                        </p>
+                                        <button onclick="checkAnswer(7, 'a')" class="valaszlehetosegek">
+                                            védő
+                                        </button>
+                                        <button onclick="checkAnswer(7, 'b')" class="valaszlehetosegek">
+                                            védekező középpályás
+                                        </button>
+                                        <button onclick="checkAnswer(7, 'c')" class="valaszlehetosegek">
+                                            támadó középpályás
+                                        </button>
+                                        <button onclick="checkAnswer(7, 'd')" class="valaszlehetosegek">
+                                            kapus
+                                        </button>
+                                        <div id="answer7">
+                                        </div>
+                                        <br>
+                                        <br>
+                                        <br>
+                                    </div>
+                                </div>
+
+                                <div id="quiz">
+                                    <div class="question">
+                                        <p class="kerdes">
+                                            8. Hányszor lett a legdrágább magyar játékos?
+                                        </p>
+                                        <button onclick="checkAnswer(8, 'a')" class="valaszlehetosegek">
+                                            egyszer
+                                        </button>
+                                        <button onclick="checkAnswer(8, 'b')" class="valaszlehetosegek">
+                                            kétszer
+                                        </button>
+                                        <button onclick="checkAnswer(8, 'c')" class="valaszlehetosegek">
+                                            háromszor
+                                        </button>
+                                        <button onclick="checkAnswer(8, 'd')" class="valaszlehetosegek">
+                                            ötször
+                                        </button>
+                                        <div id="answer8">
+                                        </div>
+                                        <br>
+                                        <br>
+                                        <br>
+                                    </div>
+                                </div>
+
+                                <div id="quiz">
+                                    <div class="question">
+                                        <p class="kerdes">
+                                            9. Milyen becenevei vannak?
+                                        </p>
+                                        <button onclick="checkAnswer(9, 'a')" class="valaszlehetosegek">
+                                            Domi
+                                        </button>
+                                        <button onclick="checkAnswer(9, 'a')" class="valaszlehetosegek">
+                                            Szobo
+                                        </button>
+                                        <button onclick="checkAnswer(9, 'a')" class="valaszlehetosegek">
+                                            Szobi
+                                        </button>
+                                        <button onclick="checkAnswer(9, 'a')" class="valaszlehetosegek">
+                                            Kicsi
+                                        </button>
+                                        <div id="answer9">
+                                        </div>
+                                        <br>
+                                        <br>
+                                        <br>
+                                    </div>
+                                </div>
+
+                                <div id="quiz">
+                                    <div class="question">
+                                        <p class="kerdes">
+                                            10. Hányszor lett az év magyar labdarúgója?
+                                        </p>
+                                        <button onclick="checkAnswer(10, 'a')" class="valaszlehetosegek">
+                                            egyszer sem
+                                        </button>
+                                        <button onclick="checkAnswer(10, 'b')" class="valaszlehetosegek">
+                                            kétszer
+                                        </button>
+                                        <button onclick="checkAnswer(10, 'c')" class="valaszlehetosegek">
+                                            háromszor
+                                        </button>
+                                        <button onclick="checkAnswer(10, 'd')" class="valaszlehetosegek">
+                                            ötször
+                                        </button>
+                                        <div id="answer10">
+                                        </div>
+                                        <br>
+                                        <br>
+                                        <br>
+                                    </div>
+                                </div>
+
+                                <div id="quiz">
+                                    <div class="question">
+                                        <p class="kerdes">
+                                            11. Mi a jelenlegi mezszáma?
+                                        </p>
+                                        <button onclick="checkAnswer(11, 'a')" class="valaszlehetosegek">
+                                            7
+                                        </button>
+                                        <button onclick="checkAnswer(11, 'b')" class="valaszlehetosegek">
+                                            9
+                                        </button>
+                                        <button onclick="checkAnswer(11, 'c')" class="valaszlehetosegek">
+                                            8
+                                        </button>
+                                        <button onclick="checkAnswer(11, 'd')" class="valaszlehetosegek">
+                                            17
+                                        </button>
+                                        <div id="answer11">
+                                        </div>
+                                        <br>
+                                        <br>
+                                        <br>
+                                    </div>
+                                </div>
+
+                                <div id="result"></div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+
+
+
+<script>
+    function checkAnswer(questionNumber, answer) {
+    const correctAnswers = {
+        1: 'd',
+        2: 'a',
+        3: 'c',
+        4: 'a',
+        5: 'b',
+        6: 'b',
+        7: 'c',
+        8: 'b',
+        9: 'a',
+        10: 'b',
+        11: 'c'
+    };
+
+    const resultElement = document.getElementById('answer' + questionNumber);
+    if (answer === correctAnswers[questionNumber]) {
+        resultElement.innerHTML = '<span class="correct">Helyes válasz!</span>';
+    } else {
+        resultElement.innerHTML = '<span class="incorrect">Helytelen válasz. Próbáld újra!</span>';
+    }
+    }
+    {
+    document.getElementById('result').innerHTML = "Pontszám: " + score + "/" + totalQuestions;
+    }
+</script>
+
+
+
+
+<main class="flex-shrink-0">
+    <section class="bg-light py-5">
+        <div class="container px-5">
+            <div class="row gx-5 justify-content-center">
+                <div class="col-xxl-8">
+                    <div class="text-center my-5">
+                        <h2 class="display-5 fw-bolder">
+                            <span class="text-gradient d-inline">
+                            </span>
+                        </h2>
+                        <p class="lead fw-light mb-4">
+                            Szoboszlai Dominik és a Liverpool
+                        </p>
+                        <p class="text-muted">
+                            Szoboszlai Dominik egy rendkívül tehetséges játékos, és a Liverpool FC
+                            számára fantasztikus lehetőség lenne megszerezni őt. A pályán mutatott 
+                            képességei és lendülete valóban megdöbbentő, és bárki számára inspiráló 
+                            példát jelenthet a kitartás és a kemény munka erejéről.
+                        </p>
+                        <div class="d-flex justify-content-center fs-2 gap-4">
+                            <a target="_blank" class="text-gradient" href="https://twitter.com/Dom_Szoboszlai">
+                                <i class="bi bi-twitter">
+                                </i>
+                            </a>
+                            <a target="_blank" class="text-gradient"
+                                href="https://www.instagram.com/szoboszlaidominik/">
+                                <i class="bi bi-instagram">
+                                </i>
+                            </a>
+                            <a target="_blank" class="text-gradient"
+                                href="https://www.facebook.com/dominikszoboszlaiofficial">
+                                <i class="bi bi-facebook">
+                                </i>
+                            </a>
+                            <a target="_blank" class="text-gradient" href="https://video.liverpoolfc.com/">
+                                <img style="height: 35px; align-items: top;" src="assets/liverpool-logo-liverpool.png" alt="L. F. C.">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+</body>
+</html>
